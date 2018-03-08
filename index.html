@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	 <title>Challenge 1</title>
+    	<link rel="stylesheet" type="text/css" href="Styles.css">
+    	<meta  charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      </head>
+      <body alt="starbackground" background="images/background.jpg">
+        <header>
+          <img id="logo" alt="logo" src="Images/logo.png">
+        </header>
+
+        <div class="row">
+
+         <div class="col-4">
+         <div id="fuelmeter_div">
+     	      <p class="title">Brandstof</p>
+    	      <meter alt="brandstofmeter" low=".25" optimum=".5" high=".75" value=".5"></meter>
+         </div>
+         </div>
+
+          <div class="col-4">
+
+         <p class="title">Aftelling</p>
+         <p id="countdown" alt="aftelmeter"></p>
+         </div>
+
+       
+          <div class="col-4">
+         <p class="title">Afstand over tijd</p>
+         <div  id="chartContainer">
+         </div>
+         <script alt="Grafiek afstand over tijd" src="https://canvasjs.com/assets/script/canvasjs.min.js" ></script>
+         </div>
+         </div>
+         </div>
+
+         <div class="footer">
+
+           <img class="rocket" alt="raket" src="Images/rocket.png">
+         </div>
+      </body>
+      <footer>
+
+         <script type="text/javascript" src="js/countdown.js"></script>
+             <script type="text/javascript" src="js/chart.js"></script>
+      </footer>
+    </html>
